@@ -8,7 +8,7 @@ export const reducer = (state = state1, action) => {
       return {...state, counter: action.payload.counter};
     case actions.DECREMENT:
       return {...state, counter: action.payload.counter};
-    case actions.RESET:
+    case actions.R:
       return {...state, counter: action.payload.counter};
     default:
       return state;
